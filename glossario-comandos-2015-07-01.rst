@@ -13,7 +13,8 @@ cat
 
 
 cd
-  Descrição do comando
+ Mudar de diretório
+ exemplo: cd src
 
 
 cowsay
@@ -41,7 +42,7 @@ HISTTIMEFORMAT="%d/%m/%y"
 
 
 hostname
-  Descrição do comando
+  Exibe o nome da máquina Ex: hostname
 
 
 ifconfig
@@ -57,11 +58,13 @@ lastb
 
 
 ls
-  Descrição do comando
+  lista conteúdo do diretório
+  exemplço: ls
 
 
 mkdir
-  Descrição do comando
+ criar novo diretório ou pasta 
+ exemplo: mkdir vacas
 
 
 nome="fulano
@@ -69,15 +72,16 @@ nome="fulano
 
 
 passswd
-  Descrição do comando
+  Muda a senha
+  exemplo: passwd
 
 
 pwd
-  Descrição do comando
-
+  Mostra o diretório em que está
+  ex: pwd
 
 set
-  Descrição do comando
+   Exibe, define e altera variáveis de ambiente
 
 
 tree
@@ -109,12 +113,14 @@ while
 
 
 who
-  Descrição do comando
+ Informa o nome de todos os usuários logados
+ Ex: who
 
 
 whoami
-  Descrição do comando
+ Exibe o nome do usuário Ex:whoami
 
 write
-  Descrição do comando
-
+  escrever uma mensagem à um usuário Ex: write colega "mensagem"
+  echo "Mensagem" | write colega
+  cowsay - f koala
